@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Keahlian Teknis</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #45c07ce8; padding: 20px; }
+    .card { background: white; max-width: 600px; margin: auto; padding: 20px; border-radius: 10px; }
+    /* Modifikasi bullet menggunakan CSS */
+    ul {
+      list-style-type: none; /* Hilangkan bullet asli */
+      padding-left: 20px;
+    }
+    ul li::before {
+      content: "▹"; /* Menggunakan simbol kustom sebagai bullet */
+      color: #2e7d32;
+      font-weight: bold;
+      display: inline-block; 
+      width: 1em;
+      margin-left: -1em;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Daftar Skill Teknis</h2>
+    <ul>
+      <li>HTML & CSS untuk Web Design</li>
+      <li>Bahasa Pemrograman Python</li>
+      <li>Manajemen Database (SQL)</li>
+      <li>Troubleshooting Perangkat Keras</li>
+      <li>Instalasi Jaringan Dasar</li>
+      <li>UI/UX Design Dasar</li>
+    </ul>
+    <br>
+    <a href="index.html">Kembali ke Profil</a>
+  </div>
+</body>
+</html>
